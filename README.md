@@ -1,7 +1,7 @@
 # autogen-bedrock-claude-streamlit
 MyAssistant Playground --powered by Bedrock Claude &amp; AutoGen
 
-:fire: AutoGen with Bedrock and Open LLMs ![slides](assets/AutoGen%20with%20Bedrock%20and%20Open%20LLMs.pptx)
+:fire: AutoGen with Bedrock and Open LLMs. ![slides](assets/AutoGen%20with%20Bedrock%20and%20Open%20LLMs.pptx)
 
 # Architecture
 ![](assets/arch.png)
