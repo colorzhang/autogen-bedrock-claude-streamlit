@@ -36,10 +36,10 @@ Retrieval
 # Run
 Requirements
 ```
-autogen>=0.20
+autogen>=0.2.0
 streamlit
 litellm
-openai>=1.0
+openai>=1.1.0
 ```
 
 Start the API proxy
@@ -53,7 +53,7 @@ streamlit run myassistant-autogen.py
 ```
 
 > [!TIP]
-> Please run this demo on EC2 with approprate permissions
+> Please run this MyAssistant demo on EC2 with appropriate permissions
 
 > [!CAUTION]
 > Need to configure according environments if you run outside cloud.
@@ -63,7 +63,8 @@ streamlit run myassistant-autogen.py
 - [x] Retrieval
 - [ ] Code Interpreter for Data Scientist
 - [ ] Function call with Claude
-- [ ] Run with open LLMs
+- [ ] Run with open LLMs (OpenHermes-2.5-Mistral-7B, ChatGLM3-6b, OpenChat 3.5)
+- [ ] Code execution in Docker
 
 Winston Zhang
 
