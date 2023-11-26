@@ -47,6 +47,17 @@ Start the API proxy
 litellm --model bedrock/anthropic.claude-v2
 ```
 
+Start MyAssistant
+```
+streamlit run myassistant-autogen.py
+```
+
+> [!TIP]
+> Please run this demo on EC2 with approprate permissions
+
+> [!CAUTION]
+> Need to configure according environments if you run outside cloud.
+
 # Roadmap
 - [x] Code Interpreter
 - [x] Retrieval
