@@ -12,6 +12,10 @@ Code Interpreter
 
 Retrieval
 ![Retrieval](assets/retrieval.png)
+![Retrieval-url](assets/retrieval-url.png)
+
+Vanilla Chat
+![Vanilla](assets/vanilla-chat.png)
 
 ## demo scripts
 Code Interpreter
@@ -25,9 +29,30 @@ Code Interpreter
 - 列出我的s3存储桶
 
 Retrieval
-- who write this generative ai bible? 
-- how long it take openai to get 1m users? 
+- Who write this generative ai bible? 
+- How long it take openai to get 1m users? 
 - How many labs in this bedrock workshop?
+
+# Run
+Requirements
+```
+autogen>=0.20
+streamlit
+litellm
+openai>=1.0
+```
+
+Start the API proxy
+```
+litellm --model bedrock/anthropic.claude-v2
+```
+
+# Roadmap
+- [x] Code Interpreter
+- [x] Retrieval
+- [ ] Code Interpreter for Data Scientist
+- [ ] Function call with Claude
+- [ ] Run with open LLMs
 
 Winston Zhang
 
