@@ -3,6 +3,8 @@ MyAssistant Playground --powered by Bedrock Claude &amp; AutoGen
 
 :fire: AutoGen with Bedrock and Open LLMs [slides](assets/AutoGen%20with%20Bedrock%20and%20Open%20LLMs.pptx)
 
+:fire: Function calling migration: from GPT-4 to Claude 3 [Notes](https://tropical-dresser-bff.notion.site/FC-migrating-from-GPT-4-to-Claude-3-633568b218414632a367295d48d9f400)
+
 # Architecture
 ![](assets/arch.png)
 
@@ -62,7 +64,7 @@ streamlit run myassistant-autogen.py
 - [x] Code Interpreter
 - [x] Retrieval
 - [ ] Code Interpreter for Data Scientist
-- [ ] Function call with Claude
+- [x] Function call with Claude
 - [ ] Run with open LLMs (OpenHermes-2.5-Mistral-7B, ChatGLM3-6b, OpenChat 3.5)
 - [ ] Code execution in Docker
 
